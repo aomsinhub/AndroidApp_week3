@@ -11,6 +11,10 @@ interface FishColor {
 //abstract class AquariumFish {
 //    abstract val color: String
 //}
+//abstract class AquariumFish : FishAction {
+//    abstract val color: String
+//    override fun eat() = println("yum")
+//}
 
 class Shark: FishAction, FishColor {
     override val color = "grey"
